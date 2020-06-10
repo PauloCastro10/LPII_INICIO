@@ -16,7 +16,7 @@ public class MySqlDBConexion {
 		Connection con=null;
 		try {
 			
-		    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sedenorte?serverTimezone=CST","root","mysql");           
+		    con = DriverManager.getConnection("jdbc:mysql://https://node225978-env-0519975.j.layershift.co.uk/sedenorte?serverTimezone=CST","root","SDYobc74330");           
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
